@@ -1,0 +1,116 @@
+/*
+General
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+/*
+navbar
+*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(73, 126, 186);
+    color: #fff;
+    margin-top: 0px;
+}
+.nav-links a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    list-style-type:None;
+   }
+.menu li:hover {
+    background-color: #355fd4;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+
+.logo a{
+    font-size: 32px;
+    color:aliceblue;
+}
+
+/* headers 
+*/
+.header-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 70, 53);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.paragraph{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.list-container{
+    margin-top: 30px;
+}
+
+.list-container li{
+    margin-left:30px;
+    margin-top: 20px;
+    display: list-item;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: rgb(73, 126, 186);
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+
+.author-footer{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.grid-container{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.box-model-1{
+    width: 350px;
+    padding: 5px;
+    height: 150px;
+    margin-top: 80px;
+    border:5px solid black;
+}
+
+.box-model-2{
+    width: 350px;
+    padding: 0px;
+    height: 150px;
+    margin-top: 50px;
+    border:8px solid rgb(50, 153, 50);
+}
+
+.item-list{
+    margin-left: 30px;
+}
